@@ -1,5 +1,5 @@
-"""Smart Home Monitoring & Automation System - Streamlit dashboard.
 
+"""
 Run with:  streamlit run app.py
 """
 from __future__ import annotations
