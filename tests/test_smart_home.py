@@ -1,4 +1,5 @@
 """Unit tests for the simulation engine, automation rules and storage."""
+
 import sys
 from datetime import timedelta
 from pathlib import Path
