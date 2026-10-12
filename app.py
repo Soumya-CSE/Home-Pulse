@@ -1,11 +1,5 @@
-
-"""
-Run with:  streamlit run app.py
-"""
 from __future__ import annotations
-
 import time
-
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -425,6 +419,7 @@ def live_view() -> None:
         render_analytics(h)
     with tabs[4]:
         render_logs(h)
+
 
 
 live_view()
