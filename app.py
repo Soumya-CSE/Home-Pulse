@@ -81,7 +81,7 @@ def prev_value(home: HomeSystem, room: str, key: str):
     return home.history[-1]["rooms"][room][key] - home.history[-2]["rooms"][room][key]
 
 
-# ---------------------------------------------------------------------- callbacks
+# ---------------------------------------------------------------------- Callbacks
 def cb_toggle(dev_id: str) -> None:
     st.session_state.home.set_device(dev_id, on=st.session_state[f"tg_{dev_id}"])
 
@@ -122,12 +122,13 @@ def cb_clear_history() -> None:
     home.events.clear()
 
 
-# ---------------------------------------------------------------------------- state
+# ---------------------------------------------------------------------------- State
+
 if "home" not in st.session_state:
     st.session_state.home = HomeSystem()
 home: HomeSystem = st.session_state.home
 
-# ---------------------------------------------------------------------------- sidebar
+# ---------------------------------------------------------------------------- Sidebar
 with st.sidebar:
     st.title("🏠 Smart Home")
     st.caption("Monitoring & automation (simulated)")
@@ -162,7 +163,8 @@ with st.sidebar:
     st.caption(f"Run ID: `{home.run_id}`")
 
 
-# ------------------------------------------------------------------------ renderers
+
+# ---------------------------------------------------------------------- renderers
 def render_header(home: HomeSystem) -> None:
     prev_power = home.history[-2]["power"] if len(home.history) > 1 else home.total_power
     cols = st.columns(5)
