@@ -24,7 +24,7 @@ LEVEL_ICONS = {"info": "🔵 info", "warning": "🟠 warning", "critical": "🔴
 FAN_LABELS = {1: "Low", 2: "Medium", 3: "High"}
 
 
-# ----------------------------------------------------------------- small helpers
+# -------------------------------------------------------------- Small helpers
 def show_chart(fig: go.Figure, key: str) -> None:
     try:
         st.plotly_chart(fig, width="stretch", key=key)
