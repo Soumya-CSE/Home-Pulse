@@ -396,7 +396,8 @@ def render_logs(home: HomeSystem) -> None:
                        key="dl_events")
 
 
-# ------------------------------------------------------------------------- main view
+# ----------------------------------------------------------------------main view
+
 interval = float(refresh_s)
 
 
@@ -419,7 +420,5 @@ def live_view() -> None:
         render_analytics(h)
     with tabs[4]:
         render_logs(h)
-
-
 
 live_view()
