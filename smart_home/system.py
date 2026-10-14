@@ -40,7 +40,7 @@ class HomeSystem:
         for _ in range(warmup_steps):          # pre-fill charts with a couple of hours of data
             self.tick(5)
 
-    # --------------------------------------------------------------- device API
+    # ---------------------------------------------------------------Device API
     def devices_of(self, dtype: str) -> list[Device]:
         return [d for d in self.devices.values() if d.type == dtype]
 
@@ -131,7 +131,7 @@ class HomeSystem:
         self.events.appendleft({"time": self.sim_time, "category": category, "level": level, "message": message})
         self.db.log_event(self.run_id, self.sim_time, category, level, message)
 
-    # --------------------------------------------------------------------- tick
+    # ---------------------------------------------------------------------Tick
     def tick(self, minutes: int = 10) -> None:
         self.sim_time += timedelta(minutes=minutes)
         self.env.step(self, minutes)
