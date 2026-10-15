@@ -1,5 +1,3 @@
-"""Unit tests for the simulation engine, automation rules and storage."""
-
 import sys
 from datetime import timedelta
 from pathlib import Path
@@ -123,3 +121,4 @@ def test_database_roundtrip(home):
     assert not home.db.events(home.run_id).empty
     home.db.clear(home.run_id)
     assert home.db.readings(home.run_id).empty
+
