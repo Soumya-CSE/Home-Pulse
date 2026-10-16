@@ -6,9 +6,7 @@ import time
 import uuid
 from collections import deque
 from datetime import datetime, timedelta
-
 import pandas as pd
-
 from .automation import RULES, evaluate_alerts, run_automation
 from .config import BASE_LOAD_W, DEFAULT_SETTINGS, MANUAL_OVERRIDE_MIN, MODES, ROOMS
 from .database import Database
