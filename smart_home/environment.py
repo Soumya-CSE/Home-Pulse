@@ -4,8 +4,7 @@ Temperature, humidity, air quality, light and motion all follow simple, believab
 dynamics: a day/night outdoor cycle, an occupant who moves between rooms, and
 devices (AC, fans, purifiers, humidifiers, lights) that push readings around.
 """
-from __future__ import annotations
-
+from __future__ import annotations 
 import math
 import random
 from dataclasses import dataclass
