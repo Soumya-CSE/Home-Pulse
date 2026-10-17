@@ -1,5 +1,6 @@
 """Physics-flavoured simulator that produces sensor readings for each room.
 
+
 Temperature, humidity, air quality, light and motion all follow simple, believable
 dynamics: a day/night outdoor cycle, an occupant who moves between rooms, and
 devices (AC, fans, purifiers, humidifiers, lights) that push readings around.
@@ -9,7 +10,6 @@ import math
 import random
 from dataclasses import dataclass
 from datetime import timedelta
-
 from .config import ROOMS
 
 WINDOW_FACTOR = {"Living Room": 1.0, "Bedroom": 0.8, "Kitchen": 0.9, "Bathroom": 0.25}

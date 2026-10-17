@@ -5,7 +5,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 from plotly.subplots import make_subplots
-
 from smart_home.automation import RULES
 from smart_home.config import (
     DEFAULT_SETTINGS,
