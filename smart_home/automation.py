@@ -3,6 +3,7 @@ Each rule is a plain function `rule(system)` that inspects sensor readings and
 adjusts devices through `system.auto_set(...)`. Rules respect manual overrides:
 if the user touched a device recently, automation leaves it alone.
 """
+
 from __future__ import annotations
 from dataclasses import dataclass
 @dataclass(frozen=True)

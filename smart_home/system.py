@@ -1,5 +1,6 @@
 """HomeSystem: ties simulator, devices, automation, alerts and storage together."""
 
+
 from __future__ import annotations
 import random
 import time
