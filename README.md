@@ -1,5 +1,6 @@
 # 🏠 Home Pulse — Smart Home Monitoring & Automation System
 
+
 A Streamlit-based smart home simulation system for real-time environmental monitoring, smart device control, automated security alerts, and energy analytics — without requiring physical hardware.
 
 ## ✨ Features
