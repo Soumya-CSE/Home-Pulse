@@ -9,10 +9,8 @@ Home Pulse provides an interactive dashboard to monitor home conditions, control
 ### 🏠 Main Dashboard
 
 ### 🌡️ Environmental Monitoring
-<!-- Insert environmental monitoring screenshot here -->
 
 ### 💡 Smart Device Control
-<!-- Insert device control screenshot here -->
 
 ### 🚨 Security Alerts
 <!-- Insert security alerts screenshot here -->
