@@ -1,54 +1,252 @@
 # 🏠 Home Pulse — Smart Home Monitoring & Automation System
 
-A Streamlit-based smart home simulation system for real-time environmental monitoring, smart device control, automated security alerts, and energy analytics — without requiring physical hardware.
+A **Streamlit-based Smart Home Monitoring and Automation System** that simulates real-time environmental monitoring, smart device control, security alerts, rule-based automation, and energy analytics — without requiring any physical IoT hardware.
+
+Home Pulse provides an interactive dashboard to monitor home conditions, control simulated smart devices, detect unusual activities, and automate everyday tasks using predefined rules.
+
+## 📸 Screenshots
+
+<!-- Add your project screenshots below -->
+
+### 🏠 Main Dashboard
+<!-- Insert dashboard screenshot here -->
+
+### 🌡️ Environmental Monitoring
+<!-- Insert environmental monitoring screenshot here -->
+
+### 💡 Smart Device Control
+<!-- Insert device control screenshot here -->
+
+### 🚨 Security Alerts
+<!-- Insert security alerts screenshot here -->
+
+### 📊 Analytics & Event History
+<!-- Insert analytics screenshot here -->
+
+---
 
 ## ✨ Features
-- 🌡️ Environmental monitoring: Temperature, humidity, air quality, light, and motion
-- 💡 Smart device control: Lights, fans, ACs, purifiers, door locks, and cameras
-- ⚙️ Rule-based automation with Home, Away, and Sleep modes
-- 🚨 Security alerts and scenario simulation
-- 📊 Analytics, event history, and CSV export
-- 🗄️ SQLite-based data storage
+
+### 🌡️ Environmental Monitoring
+- Monitor temperature and humidity levels.
+- Track air quality and light intensity.
+- Simulate motion detection across different rooms.
+- View changing sensor readings through simulated real-time updates.
+- Visualize environmental data using interactive charts and gauges.
+
+### 💡 Smart Device Control
+- Control simulated lights, fans, air conditioners, and air purifiers.
+- Manage humidifiers and other supported smart devices.
+- Simulate door lock and security camera controls.
+- Adjust brightness, fan speed, and AC temperature settings.
+- Observe how device interactions affect environmental readings.
+
+### ⚙️ Rule-Based Automation
+- Automate devices using predefined conditions and actions.
+- Support Home, Away, and Sleep operating modes.
+- Simulate motion-based lighting and smart cooling.
+- Trigger air-quality and humidity control actions.
+- Apply mode-specific automation rules to improve comfort, safety, and energy efficiency.
+
+### 🚨 Security Monitoring & Alerts
+- Generate alerts for simulated security events.
+- Monitor motion activity and door-lock status.
+- Simulate suspicious or unusual home scenarios.
+- Display relevant alerts and system events.
+- Maintain an event history for reviewing previous activities.
+
+### 📊 Analytics & Energy Management
+- Visualize historical sensor readings.
+- Track simulated electricity consumption.
+- Monitor device activity and energy usage.
+- Review alerts and automation events over time.
+- Export supported data to CSV for further analysis.
+
+### 🗄️ Data Storage
+- Use SQLite to store supported application data.
+- Maintain event history and relevant monitoring records.
+- Support persistent storage between application sessions where implemented.
+
+### 🧪 Testing
+- Use pytest for automated testing.
+- Validate supported application features and core functionality.
+- Run tests locally to check for regressions.
+
+---
 
 ## 🛠️ Tech Stack
-Python · Streamlit · Plotly · pandas · SQLite · pytest
 
-## 🚀 Installation
+| Technology | Purpose |
+|---|---|
+| Python | Core application logic and simulation |
+| Streamlit | Interactive web dashboard |
+| Plotly | Interactive charts and visualizations |
+| pandas | Data processing and analysis |
+| SQLite | Local database storage |
+| pytest | Automated testing |
+
+---
+
+## 🏗️ System Overview
+
+Home Pulse follows a simulation-based architecture:
+
+1. **Sensor Simulator:** Generates environmental readings such as temperature, humidity, air quality, light, and motion.
+2. **Monitoring Dashboard:** Displays room conditions, sensor values, and device states.
+3. **Device Controller:** Processes user interactions with simulated smart devices.
+4. **Automation Engine:** Evaluates predefined rules and triggers supported actions.
+5. **Alert System:** Displays security-related events and automation alerts.
+6. **Data Layer:** Uses SQLite and application data processing to maintain supported records and history.
+7. **Analytics Module:** Visualizes trends and energy usage and provides CSV export functionality.
+
+**Workflow:**
+
+`Sensor Simulation → Dashboard → Rule Engine → Device Actions → Alerts & History → Analytics`
+
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+Make sure you have the following installed:
+
+- Python 3.10 or a compatible version supported by the project dependencies
+- Git
+- A modern web browser
+
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Soumya-CSE/Home-Pulse.git
 cd Home-Pulse
+```
 
+### 2️⃣ Create a Virtual Environment
+
+```bash
 python -m venv .venv
 ```
 
-Activate the environment:
+### 3️⃣ Activate the Virtual Environment
+
+**Windows — PowerShell**
 
 ```powershell
-# Windows
 .\.venv\Scripts\Activate.ps1
 ```
 
-Install dependencies and run:
+**Windows — Command Prompt**
+
+```cmd
+.venv\Scripts\activate.bat
+```
+
+**Linux / macOS**
 
 ```bash
+source .venv/bin/activate
+```
+
+### 4️⃣ Install Dependencies
+
+```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+### 5️⃣ Run the Application
+
+```bash
 streamlit run app.py
 ```
 
-Open `http://localhost:8501` in your browser.
+Open the following address in your browser:
 
-## 🧪 Run Tests
+**http://localhost:8501**
+
+The dashboard will start locally, allowing you to explore the simulated smart home environment.
+
+---
+
+## 🧪 Running Tests
+
+Run the test suite from the project root:
 
 ```bash
 python -m pytest -q tests
 ```
 
-## 🎯 Project Goal
-To demonstrate smart home monitoring, IoT concepts, rule-based automation, security monitoring, and energy management through a hardware-free simulation.
+This command executes the tests inside the `tests` directory and displays a summary of the results.
+
+---
+
+## 🎮 How to Use
+
+1. Launch the application using Streamlit.
+2. Explore the dashboard to view the simulated home environment.
+3. Monitor room conditions, including temperature, humidity, air quality, and light.
+4. Use the device controls to change the state of supported smart devices.
+5. Select an appropriate operating mode: Home, Away, or Sleep.
+6. Observe automation actions and generated alerts.
+7. Review environmental trends, event history, and energy analytics.
+8. Export supported records to CSV for further analysis.
+
+*Available controls and displayed information depend on the implemented application features.*
+
+---
+
+## 🔐 Security & Privacy
+
+- Designed as a local, hardware-free simulation.
+- Does not require a physical smart home installation.
+- Uses simulated environmental and device data.
+- Stores supported records locally using SQLite.
+- Intended for educational demonstrations rather than production home security.
+
+**Note:** This project demonstrates simulated security monitoring. It should not be considered a replacement for real alarms, surveillance systems, or certified home security devices.
+
+---
+
+## 🎯 Project Goals
+
+The main goals of Home Pulse are to:
+
+- Demonstrate smart home monitoring and IoT concepts.
+- Build an interactive dashboard using Python and Streamlit.
+- Implement rule-based automation for common household scenarios.
+- Explore security event monitoring and alert generation.
+- Analyze environmental conditions and simulated energy consumption.
+- Practice data visualization, database integration, and software testing.
+
+---
+
+## 🔮 Future Enhancements
+
+Potential improvements include:
+
+- Integration with real IoT sensors and microcontrollers.
+- MQTT-based communication with smart devices.
+- Machine learning for occupancy prediction and anomaly detection.
+- Advanced energy optimization and usage forecasting.
+- User authentication and role-based access control.
+- Notifications through email or messaging services.
+- Additional automation rules and customizable scenarios.
+- Docker-based deployment and continuous integration.
+
+---
 
 ## 👨‍💻 Author
-**Soumya Hazra**  
-GitHub: [Soumya-CSE](https://github.com/Soumya-CSE)
 
-⭐ If you like this project, consider giving the repository a star!s
+**Soumya Hazra**
+
+- GitHub: [Soumya-CSE](https://github.com/Soumya-CSE)
+- Project Repository: [Home Pulse](https://github.com/Soumya-CSE/Home-Pulse)
+
+---
+
+## ⭐ Support
+
+If you find this project interesting or useful, consider giving the repository a **star ⭐** on GitHub!
+
+*Built with Python, Streamlit, and a passion for smart home technology.*
