@@ -13,10 +13,8 @@ Home Pulse provides an interactive dashboard to monitor home conditions, control
 ### 💡 Smart Device Control
 
 ### 🚨 Security Alerts
-<!-- Insert security alerts screenshot here -->
 
 ### 📊 Analytics & Event History
-<!-- Insert analytics screenshot here -->
 
 ---
 
