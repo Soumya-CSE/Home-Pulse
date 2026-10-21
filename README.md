@@ -6,10 +6,7 @@ Home Pulse provides an interactive dashboard to monitor home conditions, control
 
 ## 📸 Screenshots
 
-<!-- Add your project screenshots below -->
-
 ### 🏠 Main Dashboard
-<!-- Insert dashboard screenshot here -->
 
 ### 🌡️ Environmental Monitoring
 <!-- Insert environmental monitoring screenshot here -->
