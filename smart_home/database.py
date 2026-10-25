@@ -5,6 +5,7 @@ from pathlib import Path
 import pandas as pd
 from .config import DB_PATH
 
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS readings (
     run_id TEXT, ts TEXT, room TEXT,
@@ -20,6 +21,7 @@ CREATE INDEX IF NOT EXISTS idx_readings_run ON readings(run_id);
 CREATE INDEX IF NOT EXISTS idx_power_run ON power(run_id);
 CREATE INDEX IF NOT EXISTS idx_events_run ON events(run_id);
 """
+
 
 
 class Database:

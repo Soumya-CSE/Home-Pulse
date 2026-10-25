@@ -16,8 +16,6 @@ Home Pulse provides an interactive dashboard to monitor home conditions, control
 
 ### 📊 Analytics & Event History
 
----
-
 ## ✨ Features
 
 ### 🌡️ Environmental Monitoring

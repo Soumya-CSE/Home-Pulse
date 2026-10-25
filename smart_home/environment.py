@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from datetime import timedelta
 from .config import ROOMS
 
+
 WINDOW_FACTOR = {"Living Room": 1.0, "Bedroom": 0.8, "Kitchen": 0.9, "Bathroom": 0.25}
 
 
