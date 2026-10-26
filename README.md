@@ -8,7 +8,18 @@ Home Pulse provides an interactive dashboard to monitor home conditions, control
 
 ### 🏠 Main Dashboard
 
+<img width="1892" height="891" alt="Screenshot 2026-10-26 205040" src="https://github.com/user-attachments/assets/8da5d65d-3ea8-484c-9909-7a6a17ae7be1" />
+
+<img width="1887" height="887" alt="Screenshot 2026-10-26 205103" src="https://github.com/user-attachments/assets/2c1a2138-2822-4451-8aef-236b7d2085eb" />
+
+<img width="1881" height="890" alt="Screenshot 2026-10-26 205118" src="https://github.com/user-attachments/assets/2da561f7-be79-4371-94ff-954c12bffa46" />
+
+---
+
 ### 🔌 Devices
+
+
+
 
 ### ⚙️ Automation 
 
