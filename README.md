@@ -40,7 +40,19 @@ Home Pulse provides an interactive dashboard to monitor home conditions, control
 
 ### 📊 Analytics 
 
+<img width="1886" height="892" alt="Screenshot 2026-10-26 210904" src="https://github.com/user-attachments/assets/41d449ee-280a-4849-9527-4a39eba4c15d" />
+
+<img width="1887" height="892" alt="Screenshot 2026-10-26 210925" src="https://github.com/user-attachments/assets/59b1c81b-82dc-4f91-b484-055b36692007" />
+
+<img width="1877" height="873" alt="Screenshot 2026-10-26 211015" src="https://github.com/user-attachments/assets/83507d83-bbaf-4db0-9da0-d477330bd36a" />
+
+---
+
 ## 📋 Event Log
+
+<img width="1897" height="902" alt="Screenshot 2026-10-26 211135" src="https://github.com/user-attachments/assets/9f955059-fed1-4272-8676-c5bd39dc417c" />
+
+---
 
 ### 🌡️ Environmental Monitoring
 - Monitor temperature and humidity levels.
