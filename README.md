@@ -18,10 +18,25 @@ Home Pulse provides an interactive dashboard to monitor home conditions, control
 
 ### 🔌 Devices
 
+<img width="1890" height="902" alt="Screenshot 2026-10-26 205948" src="https://github.com/user-attachments/assets/dded120a-a523-4911-bf96-0ce96de57dab" />
 
+<img width="1895" height="900" alt="Screenshot 2026-10-26 210011" src="https://github.com/user-attachments/assets/57b5af95-bb16-4608-af80-e213240d26b2" />
 
+<img width="1907" height="887" alt="Screenshot 2026-10-26 210040" src="https://github.com/user-attachments/assets/2eb64fd0-8122-4f7b-a5d1-f96514cf6b33" />
+
+---
 
 ### ⚙️ Automation 
+
+<img width="1902" height="895" alt="Screenshot 2026-10-26 210400" src="https://github.com/user-attachments/assets/671ccf29-5c29-491e-a581-10ea5503dd10" />
+
+<img width="1887" height="902" alt="Screenshot 2026-10-26 210428" src="https://github.com/user-attachments/assets/8318a198-5163-4e63-8142-8e04666cdcf4" />
+
+<img width="1875" height="897" alt="Screenshot 2026-10-26 210450" src="https://github.com/user-attachments/assets/ddfeb363-eda6-4689-8924-13d438490883" />
+
+<img width="1887" height="908" alt="Screenshot 2026-10-26 210507" src="https://github.com/user-attachments/assets/3b7aa71d-efc2-4f46-9141-fef41056e463" />
+
+---
 
 ### 📊 Analytics 
 
