@@ -267,7 +267,7 @@ Potential improvements include:
 
 ## 👨‍💻 Author
 
-**Soumya Hazra**
+**Soumya Kanti Hazra**
 
 - GitHub: [Soumya-CSE](https://github.com/Soumya-CSE)
 - Project Repository: [Home Pulse](https://github.com/Soumya-CSE/Home-Pulse)
